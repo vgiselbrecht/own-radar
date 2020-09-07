@@ -118,6 +118,6 @@ function GetPopupText(aircraft){
     var text = '<b><a href="https://www.flightradar24.com/'+aircraft[1]+'" target="_blank">'+aircraft[1]+'</a></b><br>';
     text += 'Alt: ' + aircraft[13] + " m<br>";
     text += 'Speed: ' + Math.round(aircraft[9] * 3.6) + " km/h<br>";
-    text += 'VR: ' + Math.round(aircraft[11] * 3.6) + " km/h<br>";
+    text += 'VR: ' + aircraft[11] + " m/s<br>";
     return text;
 }
