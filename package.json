@@ -1,0 +1,22 @@
+{
+  "name": "radar",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "vgise",
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~1.0.3",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-jshint": "~2.1.0",
+    "grunt-contrib-uglify": "~4.0.1",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-contrib-sass": "~1.0.0"
+  }
+}
