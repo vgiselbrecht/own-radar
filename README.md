@@ -16,3 +16,10 @@ $path = "https://{{Username}}:{{Password}}@opensky-network.org/".$p;
 echo file_get_contents($path);
 ?>
 ```
+
+## Development
+
+```
+npm install
+grunt watch
+```
